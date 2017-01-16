@@ -16,6 +16,7 @@
   "author": "Juri Strumpflohner",
   "license": "ISC",
   "devDependencies": {
+    "@types/node": "^7.0.0",
     "awesome-typescript-loader": "^3.0.0-beta.18",
     "source-map-loader": "^0.1.6",
     "typescript": "^2.1.5",
