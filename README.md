@@ -19,6 +19,14 @@ $ git clone --depth=1 git@github.com:juristr/webpack-typescript-starter.git
 
 Maybe remove the `.git` directory and start with a fresh one.
 
+
 ## Contributions
 
 Of course! Open an issue and let's discuss :smiley:.
+
+## Links and other useful stuff
+
+Similar projects that could be a point of inspiration:
+
+- [krasimir/webpack-library-starter](https://github.com/krasimir/webpack-library-starter)
+

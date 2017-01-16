@@ -28,3 +28,4 @@ before_script:
 
 script:
   - npm run build.prod
+  - npm run test
