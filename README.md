@@ -13,6 +13,8 @@ Just clone it and get going.
 $ git clone --depth=1 git@github.com:juristr/webpack-typescript-starter.git
 ```
 
+Maybe remove the `.git` directory and start with a fresh one.
+
 ## Contributions
 
 Of course! Open an issue and let's discuss :smiley:.
