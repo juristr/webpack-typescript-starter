@@ -26,14 +26,18 @@ module.exports = {
 
     module: {
         rules: [
-            // PRE-LOADERS
+            /****************
+            * PRE-LOADERS
+            *****************/
             {
                 enforce: 'pre',
                 test: /\.js$/,
                 loader: 'source-map-loader'
             },
 
-            // LOADERS
+            /****************
+            * LOADERS
+            *****************/
             {
                 test: /\.ts$/,
                 exclude: [ /node_modules/ ],
