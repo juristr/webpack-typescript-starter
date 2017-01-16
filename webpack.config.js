@@ -34,6 +34,12 @@ module.exports = {
                 test: /\.js$/,
                 loader: 'source-map-loader'
             },
+            {
+                enforce: 'pre',
+                test: /\.ts$/,
+                exclude: /node_modules/,
+                use: 'tslint-loader'
+            },
 
             /****************
             * LOADERS
