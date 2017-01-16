@@ -1,6 +1,8 @@
 Webpack 2 + TypeScript starter
 ---
 
+[![Build Status](https://travis-ci.org/juristr/webpack-typescript-starter.svg?branch=master)](https://travis-ci.org/juristr/webpack-typescript-starter)
+
 This is by far no sophisticated starter or whatever. The goal is to get the simplest possible setup to get you started with Webpack 2 and TypeScript. You can then start from here and add further stuff you need, such as SASS compilation, add framework specific stuff etc.
 
 Also check out the official Webpack 2 docs for a proper TypeScript setup: https://webpack.js.org/guides/webpack-and-typescript/
