@@ -1,0 +1,25 @@
+{
+  "name": "webpack-typescript-starter",
+  "version": "0.0.1",
+  "description": "A simple Webpack 2 starter with TypeScript transpilation",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --port 9000 --inline --progress --profile --colors --watch --display-error-details --display-cached --content-base src/",
+    "build": "webpack --config webpack.config.js",
+    "build.prod": "webpack --config webpack.config.js -p"
+  },
+  "keywords": [
+    "webpack",
+    "webpack2",
+    "typescript"
+  ],
+  "author": "Juri Strumpflohner",
+  "license": "ISC",
+  "devDependencies": {
+    "awesome-typescript-loader": "^3.0.0-beta.18",
+    "source-map-loader": "^0.1.6",
+    "typescript": "^2.1.5",
+    "webpack": "^2.2.0-rc.6",
+    "webpack-dev-server": "^1.16.2"
+  }
+}
