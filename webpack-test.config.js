@@ -29,11 +29,22 @@ module.exports = {
                 test: /\.ts$/,
                 exclude: [ /node_modules/ ],
                 loader: 'awesome-typescript-loader'
+            },
+
+            // POST-LOADERS
+            {
+                test: /\.ts$/,
+                exclude: [ 
+                    /node_modules/,
+                    /\.spec\.ts$/
+                ],
+                loader: 'istanbul-instrumenter-loader',
+                enforce: 'post'
             }
         ]
     },
 
-    devtool: 'cheap-module-source-map',
+    devtool: 'inline-source-map',
     devServer: {}
 };
 
