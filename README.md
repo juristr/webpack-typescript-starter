@@ -9,16 +9,23 @@ Also check out the official Webpack 2 docs for a proper TypeScript setup: https:
 
 _Note, this is still a WIP. Contributions/suggestions are welcome :smiley:_
 
+## Features
+
+- [x] Webpack 2
+- [x] TypeScript 2 compilation
+- [x] ts-lint
+- [x] Webpack 2 Development Server
+- [x] Karma and Jasmine test execution
+
 ## How to use
 
 Just clone it and get going.
 
 ```
-$ git clone --depth=1 git@github.com:juristr/webpack-typescript-starter.git
+# --depth 1 removes all but one .git commit history
+$ git clone --depth=1 https://github.com/juristr/webpack-typescript-starter.git <your-project-name>
 ```
-
 Maybe remove the `.git` directory and start with a fresh one.
-
 
 ## Contributions
 
