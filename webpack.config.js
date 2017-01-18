@@ -32,7 +32,7 @@ module.exports = {
             {
                 enforce: 'pre',
                 test: /\.js$/,
-                loader: 'source-map-loader'
+                use: 'source-map-loader'
             },
             {
                 enforce: 'pre',
@@ -47,7 +47,7 @@ module.exports = {
             {
                 test: /\.ts$/,
                 exclude: [ /node_modules/ ],
-                loader: 'awesome-typescript-loader'
+                use: 'awesome-typescript-loader'
             }
         ]
     },
