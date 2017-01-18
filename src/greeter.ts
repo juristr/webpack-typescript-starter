@@ -9,4 +9,8 @@ export class Greeter {
     greet(): void {
         console.log(`Hi, ${this.name}!`);
     }
+
+    doNotGreet(): void {
+        console.log('I do not greet anyone');
+    }
 }

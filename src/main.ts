@@ -1,4 +1,6 @@
 import { Greeter } from './greeter';
 
-const g = new Greeter('Juri');
-g.greet();
+const greetHelper = () => {
+  const g = new Greeter('Juri');
+  g.greet();
+};
