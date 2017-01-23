@@ -24,24 +24,27 @@ Just clone it and get going.
 ```
 # --depth 1 removes all but one .git commit history
 $ git clone --depth=1 https://github.com/juristr/webpack-typescript-starter.git <your-project-name>
+
+# change directory to your project
+cd  <your-project-name>
+
+# Maybe remove the `.git` directory and start with a fresh one.
+
+# install all dependencies.
+$ npm i
+
+# Start developing and serve your app:
+npm start
+
+# Build your app without minification: 
+npm run build
+
+# Build your app with minification: 
+npm run build.prod
+
+# run unit tests:
+npm run test
 ```
-Maybe remove the `.git` directory and start with a fresh one.
-
-run `$ npm i` to install all dependencies.
-
-### available commands (npm run xxx):
-Start developing and serve your app: 
-`$ npm start`
-
-Build your app without minification: 
-`$ npm run build`
-
-Build your app with minification: 
-`$ npm run build.prod`
-
-run unit tests:
-`$ npm run test`
-
 ## Contributions
 
 Of course! Open an issue and let's discuss :smiley:.
