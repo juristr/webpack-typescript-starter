@@ -27,20 +27,20 @@ $ git clone --depth=1 https://github.com/juristr/webpack-typescript-starter.git 
 ```
 Maybe remove the `.git` directory and start with a fresh one.
 
-run `npm i` to install all dependencies.
+run `$ npm i` to install all dependencies.
 
 ### available commands (npm run xxx):
 Start developing and serve your app: 
-`npm start`
+`$ npm start`
 
 Build your app without minification: 
-`npm run build`
+`$ npm run build`
 
 Build your app with minification: 
-`npm run build.prod`
+`$ npm run build.prod`
 
 run unit tests:
-`npm run test`
+`$ npm run test`
 
 ## Contributions
 
