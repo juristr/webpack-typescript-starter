@@ -31,7 +31,7 @@ cd  <your-project-name>
 # Maybe remove the `.git` directory and start with a fresh one.
 
 # install all dependencies.
-$ npm i
+npm i
 
 # Start developing and serve your app:
 npm start
