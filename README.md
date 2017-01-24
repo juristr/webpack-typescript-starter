@@ -44,6 +44,9 @@ npm run build.prod
 
 # run unit tests:
 npm run test
+
+# run e2e tests node v6+ required:
+npm run e2e
 ```
 ## Contributions
 
