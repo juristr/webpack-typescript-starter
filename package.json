@@ -1,6 +1,6 @@
 {
   "name": "webpack-typescript-starter",
-  "version": "0.0.1",
+  "version": "0.1.1",
   "description": "A simple Webpack 2 starter with TypeScript transpilation",
   "main": "index.js",
   "scripts": {
@@ -15,6 +15,7 @@
     "typescript"
   ],
   "author": "Juri Strumpflohner",
+  "contributors": ["web-dave"],
   "license": "ISC",
   "devDependencies": {
     "@types/jasmine": "2.5.40",
