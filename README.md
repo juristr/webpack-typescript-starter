@@ -15,7 +15,7 @@ _Note, this is still a WIP. Contributions/suggestions are welcome :smiley:_
 - [x] TypeScript 2 compilation
 - [x] ts-lint
 - [x] Webpack 2 Development Server
-- [x] Karma and Jasmine test execution
+- [x] Jest testing framework
 
 ## How to use
 
@@ -36,10 +36,10 @@ $ npm i
 # Start developing and serve your app:
 npm start
 
-# Build your app without minification: 
+# Build your app without minification:
 npm run build
 
-# Build your app with minification: 
+# Build your app with minification:
 npm run build.prod
 
 # run unit tests:
