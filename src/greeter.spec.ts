@@ -3,10 +3,10 @@ import { Greeter } from './greeter';
 describe('Greeter', () => {
     it('should greet', () => {
         const greeter = new Greeter('Juri');
-        spyOn(console, 'log');
+        const spy = jest.spyOn(console, 'log');
 
         greeter.greet();
 
-        expect(console.log).toHaveBeenCalled();
+        expect(spy).toHaveBeenCalled();
     });
 });
