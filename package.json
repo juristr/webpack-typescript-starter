@@ -17,8 +17,10 @@
   "author": "Juri Strumpflohner",
   "license": "ISC",
   "devDependencies": {
+    "@types/jest": "^18.1.1",
     "@types/node": "7.0.0",
     "awesome-typescript-loader": "3.0.0-beta.18",
+    "jest": "^19.0.2",
     "source-map-loader": "0.1.6",
     "ts-jest": "^19.0.0",
     "tslint": "4.3.1",
