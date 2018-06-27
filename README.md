@@ -1,20 +1,20 @@
-Webpack 2 + TypeScript starter
----
+Webpack 4 + TypeScript starter
+------------------------------
 
 [![Build Status](https://travis-ci.org/juristr/webpack-typescript-starter.svg?branch=master)](https://travis-ci.org/juristr/webpack-typescript-starter)
 
-This is by far no sophisticated starter or whatever. The goal is to get the simplest possible setup to get you started with Webpack 2 and TypeScript. You can then start from here and add further stuff you need, such as SASS compilation, add framework specific stuff etc.
+This is by far no sophisticated starter or whatever. The goal is to get the simplest possible setup to get you started with Webpack 4 and TypeScript. You can then start from here and add further stuff you need, such as SASS compilation, add framework specific stuff etc.
 
-Also check out the official Webpack 2 docs for a proper TypeScript setup: https://webpack.js.org/guides/webpack-and-typescript/
+Also check out the official Webpack 4 docs for a proper TypeScript setup: https://webpack.js.org/guides/typescript/
 
 _Note, this is still a WIP. Contributions/suggestions are welcome :smiley:_
 
 ## Features
 
-- [x] Webpack 2
+- [x] Webpack 4
 - [x] TypeScript 2 compilation
 - [x] ts-lint
-- [x] Webpack 2 Development Server
+- [x] Webpack Development Server
 - [x] Karma and Jasmine test execution
 
 ## How to use

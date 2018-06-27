@@ -1,3 +1,5 @@
+const webpackConfig = require('./webpack.config.js');
+webpackConfig.mode = 'production';
 
 module.exports = function(config) {
   config.set({
@@ -19,7 +21,7 @@ module.exports = function(config) {
       'spec.bundle.js': ['webpack']
     },
 
-    webpack: require('./webpack-test.config'),
+    webpack: webpackConfig,
 
     webpackMiddleware: {
       stats: 'errors-only'
