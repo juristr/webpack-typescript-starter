@@ -40,7 +40,7 @@ npm start
 npm run build
 
 # Build your app with minification: 
-npm run build.prod
+npm run build.all
 
 # run unit tests:
 npm run test
