@@ -12,7 +12,7 @@ _Note, this is still a WIP. Contributions/suggestions are welcome :smiley:_
 ## Features
 
 - [x] Webpack 5
-- [x] TypeScript 2 compilation
+- [x] TypeScript 3 compilation
 - [x] ts-lint
 - [x] Webpack Development Server
 - [x] Karma and Jasmine test execution
