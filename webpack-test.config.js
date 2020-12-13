@@ -1,8 +1,8 @@
 const path = require('path');
 const webpack = require('webpack');
 
-const ROOT = path.resolve( __dirname, 'src' );
-const DESTINATION = path.resolve( __dirname, 'dist' );
+const ROOT = path.resolve(__dirname, 'src');
+const DESTINATION = path.resolve(__dirname, 'dist');
 
 module.exports = {
     context: ROOT,
@@ -17,18 +17,27 @@ module.exports = {
 
     module: {
         rules: [
-            // PRE-LOADERS
+            /****************
+            * PRE-LOADERS
+            *****************/
             {
                 enforce: 'pre',
                 test: /\.js$/,
                 use: 'source-map-loader'
             },
-
-            // LOADERS
+            {
+                enforce: 'pre',
+                test: /\.ts$/,
+                exclude: /node_modules/,
+                use: 'tslint-loader'
+            },
+            /****************
+            * LOADERS
+            *****************/
             {
                 test: /\.ts$/,
-                exclude: [ /node_modules/ ],
-                use: 'awesome-typescript-loader'
+                exclude: [/node_modules/],
+                use: 'ts-loader'
             }
         ]
     },
@@ -36,4 +45,3 @@ module.exports = {
     devtool: 'cheap-module-source-map',
     devServer: {}
 };
-
