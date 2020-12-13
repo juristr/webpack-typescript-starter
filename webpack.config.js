@@ -1,16 +1,23 @@
 const path = require('path');
 const webpack = require('webpack');
+const HtmlWebpackPlugin = require("html-webpack-plugin");
 
-const ROOT = path.resolve( __dirname, 'src' );
-const DESTINATION = path.resolve( __dirname, 'dist' );
+const ROOT = path.resolve(__dirname, 'src');
+const DESTINATION = path.resolve(__dirname, 'dist');
 
 module.exports = {
     context: ROOT,
 
+    plugins: [
+        new HtmlWebpackPlugin({
+            template: path.resolve(__dirname, "src", "index.html")
+        })
+    ],
+
     entry: {
         'main': './main.ts'
     },
-    
+
     output: {
         filename: '[name].bundle.js',
         path: DESTINATION
@@ -46,7 +53,7 @@ module.exports = {
             *****************/
             {
                 test: /\.ts$/,
-                exclude: [ /node_modules/ ],
+                exclude: [/node_modules/],
                 use: 'awesome-typescript-loader'
             }
         ]
@@ -55,4 +62,3 @@ module.exports = {
     devtool: 'cheap-module-source-map',
     devServer: {}
 };
-
