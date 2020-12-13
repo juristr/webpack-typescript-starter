@@ -1,4 +1,4 @@
-Webpack 5 + TypeScript starter
+Webpack 5 + TypeScript 4 starter
 ------------------------------
 
 [![Build Status](https://travis-ci.org/juristr/webpack-typescript-starter.svg?branch=master)](https://travis-ci.org/juristr/webpack-typescript-starter)
