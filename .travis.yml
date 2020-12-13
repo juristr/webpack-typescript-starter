@@ -1,5 +1,7 @@
 dist: xenial
 
+os: linux
+
 services:
   - xvfb
 
@@ -22,7 +24,7 @@ node_js:
 
 before_install:
   - export CHROME_BIN=chromium-browser
-  - npm i -g npm@^3.0.0
+  - npm i -g npm@7.0.14
   - npm install
 
 before_script:
