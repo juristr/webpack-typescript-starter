@@ -9,7 +9,7 @@
 		"build.prod": "webpack --config webpack.config.js --mode production",
 		"build.esnext": "npm run build:types && npm run build:js",
 		"build:types": "tsc --emitDeclarationOnly",
-		"build:js": "babel src --out-dir dist --extensions \".ts,.tsx\" --source-maps inline",
+		"build:js": "babel src --out-dir dist --extensions \".ts\" --source-maps inline",
 		"build.all": "npm run build.prod && npm run build.esnext",
 		"test": "karma start karma.config.js"
 	},
@@ -29,7 +29,6 @@
 		"@babel/preset-typescript": "^7.3.3",
 		"@types/jasmine": "2.8.7",
 		"@types/node": "7.0.0",
-		"awesome-typescript-loader": "^5.2.0",
 		"html-webpack-plugin": "^4.5.0",
 		"jasmine-core": "3.1.0",
 		"karma": "^5.2.3",
@@ -37,9 +36,10 @@
 		"karma-jasmine": "^4.0.1",
 		"karma-webpack": "^5.0.0-alpha.5",
 		"source-map-loader": "0.2.3",
+		"ts-loader": "^8.0.12",
 		"tslint": "5.17.0",
 		"tslint-loader": "3.6.0",
-		"typescript": "^3.5.1",
+		"typescript": "^4.1.3",
 		"webpack": "^5.10.0",
 		"webpack-cli": "^4.2.0",
 		"webpack-dev-server": "^4.0.0-beta.0"
