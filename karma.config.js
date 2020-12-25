@@ -1,36 +1,36 @@
-const webpackConfig = require('./webpack.config.js');
-webpackConfig.mode = 'production';
+const webpackConfig = require('./webpack-test.config.js');
 
-module.exports = function(config) {
-  config.set({
-    singleRun: true,
-    
-    browsers: [
-      'PhantomJS'
-    ],
+module.exports = function (config) {
+    config.set({
+        singleRun: true,
 
-    frameworks: [
-      'jasmine'
-    ],
+        browsers: [
+            'ChromeHeadless'
+        ],
 
-    files: [
-      'spec.bundle.js'
-    ],
+        frameworks: [
+            'jasmine',
+            'webpack'
+        ],
 
-    preprocessors: {
-      'spec.bundle.js': ['webpack']
-    },
+        files: [
+            'spec.bundle.js'
+        ],
 
-    webpack: webpackConfig,
+        preprocessors: {
+            'spec.bundle.js': ['webpack']
+        },
 
-    webpackMiddleware: {
-      stats: 'errors-only'
-    },
+        webpack: webpackConfig,
 
-    plugins: [
-      require('karma-jasmine'),
-      require('karma-phantomjs-launcher'),
-      require('karma-webpack')
-    ]
-  });
+        webpackMiddleware: {
+            stats: 'errors-only'
+        },
+
+        plugins: [
+            require('karma-jasmine'),
+            require('karma-chrome-launcher'),
+            require('karma-webpack')
+        ]
+    });
 };
