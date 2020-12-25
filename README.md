@@ -1,7 +1,7 @@
 Webpack 5 + TypeScript 4 starter
 ------------------------------
 
-[![Build Status](https://travis-ci.org/laurianti/webpack-5.svg?branch=master)](https://travis-ci.org/laurianti/webpack-5)
+[![Build Status](https://travis-ci.org/Laurianti/webpack-5.svg?branch=master)](https://travis-ci.org/Laurianti/webpack-5)
 
 This is by far no sophisticated starter or whatever. The goal is to get the simplest possible setup to get you started with Webpack 5 and TypeScript 4. You can then start from here and add further stuff you need, such as SASS compilation, add framework specific stuff etc.
 
