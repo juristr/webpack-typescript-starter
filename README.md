@@ -48,5 +48,3 @@ npm run test
 ## Contributions
 
 Of course! Open an issue and let's discuss :smiley:.
-
-## Links and other useful stuff
