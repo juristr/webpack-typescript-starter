@@ -53,6 +53,11 @@ module.exports = {
     },
 
     devtool: 'cheap-module-source-map',
-    devServer: {}
+    devServer: {
+        historyApiFallback: true,
+        static: path.resolve(__dirname, './src'),
+        hot: true,
+        port: 8080
+    }
 };
 

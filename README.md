@@ -1,18 +1,18 @@
-Webpack 4 + TypeScript starter
+Webpack 5 + TypeScript starter
 ------------------------------
 
 [![Build Status](https://travis-ci.org/juristr/webpack-typescript-starter.svg?branch=master)](https://travis-ci.org/juristr/webpack-typescript-starter)
 
-This is by far no sophisticated starter or whatever. The goal is to get the simplest possible setup to get you started with Webpack 4 and TypeScript. You can then start from here and add further stuff you need, such as SASS compilation, add framework specific stuff etc.
+This is by far no sophisticated starter or whatever. The goal is to get the simplest possible setup to get you started with Webpack 5 and TypeScript. You can then start from here and add further stuff you need, such as SASS compilation, add framework specific stuff etc.
 
-Also check out the official Webpack 4 docs for a proper TypeScript setup: https://webpack.js.org/guides/typescript/
+Also check out the official Webpack 5 docs for a proper TypeScript setup: https://webpack.js.org/guides/typescript/
 
 _Note, this is still a WIP. Contributions/suggestions are welcome :smiley:_
 
 ## Features
 
-- [x] Webpack 4
-- [x] TypeScript 2 compilation
+- [x] Webpack 5
+- [x] TypeScript 3 compilation
 - [x] ts-lint
 - [x] Webpack Development Server
 - [x] Karma and Jasmine test execution
@@ -33,7 +33,7 @@ cd  <your-project-name>
 # install all dependencies.
 $ npm i
 
-# Start developing and serve your app:
+# Start developing and serve your app (http://localhost:8080/index.html):
 npm start
 
 # Build your app without minification: 
