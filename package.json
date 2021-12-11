@@ -1,7 +1,7 @@
 {
   "name": "webpack-typescript-starter",
   "version": "0.0.1",
-  "description": "A simple Webpack 4 starter with TypeScript transpilation",
+  "description": "A simple Webpack 5 starter with TypeScript transpilation",
   "main": "index.js",
   "scripts": {
     "start": "webpack serve --mode development",
