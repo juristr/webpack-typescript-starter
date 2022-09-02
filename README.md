@@ -23,7 +23,7 @@ Just clone it and get going.
 
 ```
 # --depth 1 removes all but one .git commit history
-$ git clone --depth=1 https://github.com/juristr/webpack-typescript-starter.git <your-project-name>
+$ git clone --depth=1 https://github.com/ranbuch/webpack-typescript-starter.git <your-project-name>
 
 # change directory to your project
 cd  <your-project-name>
