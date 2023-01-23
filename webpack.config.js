@@ -53,6 +53,10 @@ module.exports = {
     },
 
     devtool: 'cheap-module-source-map',
-    devServer: {}
+    devServer: {
+        // reloading css and html and other static sources
+        contentBase: [ 'src/' ],
+        watchContentBase: true
+    }
 };
 
