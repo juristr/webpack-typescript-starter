@@ -64,8 +64,14 @@
             "check-whitespace"
         ],
         "quotemark": [
-            true,
-            "single"
+            [
+              true,
+              "double"
+            ],
+            [
+              true,
+              "single"
+            ]
         ],
         "semicolon": [
             true,

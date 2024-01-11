@@ -6,7 +6,7 @@ const DESTINATION = path.resolve( __dirname, 'dist' );
 
 module.exports = {
     context: ROOT,
-
+    mode: 'production',
     entry: {
         'main': './main.ts'
     },
@@ -46,13 +46,18 @@ module.exports = {
             *****************/
             {
                 test: /\.ts$/,
-                exclude: [ /node_modules/ ],
-                use: 'awesome-typescript-loader'
+                exclude: /node_modules/,
+                use: 'ts-loader'
             }
         ]
     },
 
     devtool: 'cheap-module-source-map',
-    devServer: {}
+    devServer: {
+        historyApiFallback: true,
+        static: path.resolve(__dirname, './src'),
+        hot: true,
+        port: 8080
+    }
 };
 
